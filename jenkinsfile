@@ -24,8 +24,8 @@ pipeline {
             steps {
                 echo 'Deploying....'
             }
-        }
-  
+        } 
+   }
     post {
          sucess {
              dir (‘maven-adderapp’) {
@@ -33,5 +33,5 @@ pipeline {
                 }
             }
        }
-    }
+    
 }
