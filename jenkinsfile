@@ -3,7 +3,6 @@ pipeline {
     
     tools{
         maven "maven-nodo-principal"
-        jdk 'jdk8'
     }
 
     stages {
